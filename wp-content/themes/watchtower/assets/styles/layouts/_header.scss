@@ -17,6 +17,16 @@
     top: 10px;
     font-size: 30px;
   }
+  .mobile-menu {
+  	display: none;
+  	background-color: #f4f7f5;
+  	a {
+  		font-family: 'Archer';
+  		font-weight: bold;
+  		color: $brand-primary;
+  		text-transform: uppercase;
+  	}
+  }
 }
 
 // Small devices (tablets, 768px and up)
@@ -70,7 +80,7 @@
     }
     .toggle-mobile-menu,
     .mobile-menu {
-      display: none;
+      display: none !important;
     }
   }
 }

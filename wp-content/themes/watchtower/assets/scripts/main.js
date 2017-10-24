@@ -19,6 +19,7 @@
     'common': {
       init: function() {
         // JavaScript to be fired on all pages
+        $('#mobile-menu').css('display', 'block');
         $('#toggle-mobile-menu').sidr({
           name: 'mobile-menu',
           displace: false
