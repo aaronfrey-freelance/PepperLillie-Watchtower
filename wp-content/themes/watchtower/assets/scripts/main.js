@@ -19,6 +19,10 @@
     'common': {
       init: function() {
         // JavaScript to be fired on all pages
+        $('#toggle-mobile-menu').sidr({
+          name: 'mobile-menu',
+          displace: false
+        });
       },
       finalize: function() {
         // JavaScript to be fired on all pages, after page specific JS is fired
@@ -51,7 +55,6 @@
       fire = func !== '';
       fire = fire && namespace[func];
       fire = fire && typeof namespace[func][funcname] === 'function';
-
       if (fire) {
         namespace[func][funcname](args);
       }

@@ -1,47 +1,76 @@
 .banner {
   background-color: #f4f7f5;
   padding: 30px 0;
+  text-align: center;
   .nav-primary {
-    width: 37%;
-    float: left;
-    padding-top: 45px;
-    ul {
-      &.right {
-        li {
-          margin-left: auto;
-          &:first-of-type {
-            margin: 0;
+    display: none;
+  }
+  .brand {
+    display: block;
+    img {
+      max-width: 195px;
+    }
+  }
+  .toggle-mobile-menu {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    font-size: 30px;
+  }
+}
+
+// Small devices (tablets, 768px and up)
+@media only screen and (min-width: $screen-sm-min) {}
+
+
+// Medium devices (desktops, 992px and up)
+@media only screen and (min-width: $screen-md-min) {
+  .banner {
+    .nav-primary {
+      display: block;
+      width: 36%;
+      float: left;
+      padding-top: 45px;
+      transition: all 1s;
+      ul {
+        &.right {
+          li {
+            margin-left: auto;
+            &:first-of-type {
+              margin: 0;
+            }
           }
         }
-      }
-      &.left {
-        li {
-          margin-right: auto;
-          &:last-of-type {
-            margin: 0;
+        &.left {
+          li {
+            margin-right: auto;
+            &:last-of-type {
+              margin: 0;
+            }
           }
         }
-      }
-      a {
-        padding: 0;
-        color: $brand-primary;
-        font-size: 17px;
-        font-weight: bold;
-        text-transform: uppercase;
-        &:hover,
-        &:focus {
-          background-color: transparent;
+        a {
+          padding: 0;
+          color: $brand-primary;
+          font-size: 14px;
+          font-weight: bold;
+          text-transform: uppercase;
+          transition: all 1s;
+          &:hover,
+          &:focus {
+            background-color: transparent;
+          }
         }
       }
     }
-  }
-  .brand {
-    width: 26%;
-    padding: 0 3%;
-    float: left;
-    text-align: center;
-    img {
-      max-width: 195px;
+    .brand {
+      width: 28%;
+      padding: 0 3%;
+      float: left;
+    }
+    .toggle-mobile-menu,
+    .mobile-menu {
+      display: none;
     }
   }
 }
