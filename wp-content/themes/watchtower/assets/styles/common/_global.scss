@@ -1,1 +1,65 @@
+@font-face {
+  font-family: 'Archer';
+  src: url('../fonts/Archer-Medium.eot');
+  src: url('../fonts/Archer-Medium.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Archer-Medium.woff') format('woff'),
+  url('../fonts/Archer-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
 
+@font-face {
+  font-family: 'Archer';
+  src: url('../fonts/Archer-Bold.eot');
+  src: url('../fonts/Archer-Bold.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Archer-Bold.woff') format('woff'),
+  url('../fonts/Archer-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+.flex-container {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-direction: normal;
+  -moz-box-direction: normal;
+  -webkit-box-orient: horizontal;
+  -moz-box-orient: horizontal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-pack: justify;
+  -moz-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-content: flex-start;
+  -ms-flex-line-pack: start;
+  align-content: flex-start;
+  -webkit-box-align: start;
+  -moz-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+@-moz-document url-prefix() {
+  .flex-container {
+    width: 100%;
+    -moz-box-sizing: border-box;
+  }
+}
+
+.container-fluid {
+  padding: 0 35px;
+}
+
+body {
+  font-family: 'Archer';
+}
