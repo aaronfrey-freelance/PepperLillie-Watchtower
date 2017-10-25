@@ -1,0 +1,29 @@
+.page-header {
+  border: none;
+  margin: 0;
+  padding: 0;
+  h1 {
+    margin: 0;
+    color: #ffffff;
+    font-size: 46px;
+    font-weight: bold;
+  }
+}
+
+.jumbo-image {
+  position: relative;
+  margin-top: 40px;
+  img {
+    width: 100%;
+  }
+  .page-header {
+    position: absolute;
+    bottom: 20px;
+    left: 38px;
+  }
+}
+
+.content {
+  background-color: #f4f7f5;
+  padding-top: 40px;
+}

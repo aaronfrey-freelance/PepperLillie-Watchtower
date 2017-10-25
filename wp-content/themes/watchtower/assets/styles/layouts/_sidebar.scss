@@ -1,0 +1,14 @@
+.sidebar-primary {
+	.main {
+		border-right: 2px solid $brand-primary;
+	}
+}
+
+.sidebar {
+	font-size: 20px;
+	line-height: 1.2;
+	color: $brand-primary;
+	a {
+		color: #5ba459;
+	}
+}
