@@ -26,4 +26,12 @@
 .content {
   background-color: #f4f7f5;
   padding-top: 40px;
+  margin-bottom: 40px;
+  .main {
+  	padding: 0 85px 0 40px;
+  	margin-bottom: 45px;
+  }
+  .sidebar {
+  	padding: 0 60px;
+  }
 }
