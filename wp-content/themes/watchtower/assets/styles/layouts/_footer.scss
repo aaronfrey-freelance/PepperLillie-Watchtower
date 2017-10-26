@@ -1,0 +1,26 @@
+.content-info {
+  background-color: #5ba459;
+  .social {
+    width: 176px;
+    margin: 0 auto;
+    padding: 30px 0;
+    a {
+      width: 50px;
+      height: 50px;
+      border-radius: 25px;
+      display: inline-block;
+      background-color: #ffffff;
+      text-align: center;
+      float: left;
+      margin-right: 13px;
+      &:last-child {
+        margin: 0;
+      }
+      i {
+        color: #5ba459;
+        font-size: 25px;
+        line-height: 50px;
+      }
+    }
+  }
+}
