@@ -27,11 +27,11 @@
 
   <div class="footer-contact clearfix">
   	
-  	<a class="brand pull-left" href="<?php echo esc_url(home_url('/')); ?>">
+  	<a class="brand pull-left hidden-sm hidden-xs" href="<?php echo esc_url(home_url('/')); ?>">
       <img src="<?php bloginfo('template_directory'); ?>/dist/images/logo.svg" class="img-responsive">
     </a>
 
-  	<div class="pull-left">
+		<div class="contact-info-container">
 
   		<div class="contact-info clearfix">
 
