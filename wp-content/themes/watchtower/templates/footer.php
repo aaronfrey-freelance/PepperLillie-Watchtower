@@ -23,6 +23,46 @@
 
 </div>
 
-<!-- <footer class="content-info">
-  <div class="container"></div>
-</footer> -->
+<footer class="content-info">
+
+  <div class="footer-contact clearfix">
+  	
+  	<a class="brand pull-left" href="<?php echo esc_url(home_url('/')); ?>">
+      <img src="<?php bloginfo('template_directory'); ?>/dist/images/logo.svg" class="img-responsive">
+    </a>
+
+  	<div class="pull-left">
+
+  		<div class="contact-info clearfix">
+
+	  		<div class="contact-info-block">
+	  			<div class="content-center">
+		  			FMC Tower<br>
+						2929 Walnut Street<br>
+						Suite 1540<br>
+						Philadelphia PA 19104
+					</div>
+	  		</div>
+
+	  		<div class="contact-info-block middle">
+	  			Contact Us<br>
+					<a href="mailto:info@wtprops.com">info@wtprops.com</a><br>
+					<a href="tel:2155082210">215.508.2210</a>
+	  		</div>
+
+	  		<div class="contact-info-block">
+	  			<a href="#" class="btn btn-primary">Apply Today</a>
+	  			<a href="#" class="btn btn-primary">Residential Services</a>
+	  		</div>
+
+  		</div>
+
+			<div class="copywrite">
+	  		Watchtower Property Co. &copy; Copyright <?php echo date('Y'); ?> All Rights Reserved.
+	  	</div>
+
+  	</div>
+
+  </div>
+
+</footer>

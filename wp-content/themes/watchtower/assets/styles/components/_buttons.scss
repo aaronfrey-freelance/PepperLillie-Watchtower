@@ -1,10 +1,18 @@
+.btn {
+	transition: all 0.5s;
+}
+
 .btn-primary {
-	border: 2px solid $brand-primary;
-	background: transparent;
-	color: $brand-primary;
-	border-radius: 0;
-	font-size: 22px;
-	font-weight: bold;
-	width: 215px;
-	margin-top: 30px;
+  border: 2px solid $brand-primary;
+  background: transparent;
+  color: $brand-primary !important;
+  border-radius: 0;
+  font-size: 22px;
+  font-weight: bold;
+  width: 215px;
+  margin-top: 30px;
+  &:hover,
+  &:active {
+    color: #ffffff !important;
+  }
 }

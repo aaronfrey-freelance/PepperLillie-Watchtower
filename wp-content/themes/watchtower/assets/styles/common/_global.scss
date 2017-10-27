@@ -18,6 +18,14 @@
   font-style: normal;
 }
 
+.brand {
+  display: block;
+  img {
+    width: 195px;
+    margin: 0 auto;
+  }
+}
+
 .flex-container {
   display: -webkit-box;
   display: -moz-box;
@@ -62,4 +70,12 @@
 
 body {
   font-family: 'Archer';
+}
+
+a {
+  text-decoration: none;
+  &:hover,
+  &:active {
+    text-decoration: none;
+  }
 }

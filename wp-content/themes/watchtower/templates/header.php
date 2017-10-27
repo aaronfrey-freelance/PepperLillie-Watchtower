@@ -1,4 +1,5 @@
 <header class="banner">
+
   <div class="container-fluid">
 
     <a href="#mobile-menu" id="toggle-mobile-menu" class="toggle-mobile-menu">
@@ -27,7 +28,7 @@
     </nav>
 
     <a class="brand" href="<?php echo esc_url(home_url('/')); ?>">
-      <img src="<?php bloginfo('template_directory'); ?>/dist/images/logo.svg">
+      <img src="<?php bloginfo('template_directory'); ?>/dist/images/logo.svg" class="img-responsive">
     </a>
 
     <nav class="nav-primary">
@@ -39,4 +40,5 @@
     </nav>
 
   </div>
+  
 </header>
