@@ -50,7 +50,7 @@
 					<a href="tel:2155082210">215.508.2210</a>
 	  		</div>
 
-	  		<div class="contact-info-block">
+	  		<div class="contact-info-block clearfix">
 	  			<a href="#" class="btn btn-primary">Apply Today</a>
 	  			<a href="#" class="btn btn-primary">Residential Services</a>
 	  		</div>
