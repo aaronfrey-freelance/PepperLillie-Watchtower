@@ -65,7 +65,7 @@
 }
 
 .container-fluid {
-  margin: 0 40px;
+  margin: 0 20px;
 }
 
 body {
@@ -77,5 +77,20 @@ a {
   &:hover,
   &:active {
     text-decoration: none;
+  }
+}
+
+// Small devices (tablets, 768px and up)
+@media only screen and (min-width: $screen-sm-min) {
+  .container-fluid {
+    margin: 0 30px;
+  }
+}
+
+
+// Medium devices (desktops, 992px and up)
+@media only screen and (min-width: $screen-md-min) {
+  .container-fluid {
+    margin: 0 40px;
   }
 }

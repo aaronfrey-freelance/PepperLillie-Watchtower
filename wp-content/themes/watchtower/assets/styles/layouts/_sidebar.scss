@@ -1,14 +1,37 @@
 .sidebar-primary {
-	.main {
-		border-right: 2px solid $brand-primary;
-	}
+  .sidebar {
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: center;
+    color: $brand-primary;
+    a {
+      color: #5ba459;
+    }
+    .textwidget {
+    	margin-bottom: 25px;
+    }
+  }
 }
 
-.sidebar {
-	font-size: 20px;
-	line-height: 1.2;
-	color: $brand-primary;
-	a {
-		color: #5ba459;
-	}
+// Small devices (tablets, 768px and up)
+@media only screen and (min-width: $screen-sm-min) {
+  .sidebar-primary {
+    .main {
+      border-right: 2px solid $brand-primary;
+    }
+    .sidebar {
+    	text-align: left;
+      font-size: 16px;
+    }
+  }
+}
+
+
+// Medium devices (desktops, 992px and up)
+@media only screen and (min-width: $screen-md-min) {
+  .sidebar-primary {
+    .sidebar {
+      font-size: 20px;
+    }
+  }
 }

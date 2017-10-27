@@ -5,14 +5,14 @@
   h1 {
     margin: 0;
     color: #ffffff;
-    font-size: 46px;
+    font-size: 26px;
     font-weight: bold;
   }
 }
 
 .jumbo-image {
   position: relative;
-  margin-top: 40px;
+  margin-top: 20px;
   img {
     width: 100%;
   }
@@ -25,13 +25,50 @@
 
 .content {
   background-color: #f4f7f5;
-  padding-top: 40px;
-  margin-bottom: 40px;
-  .main {
-  	padding: 0 85px 0 40px;
-  	margin-bottom: 45px;
+}
+
+.page-template-template-sidebar {
+  .content {
+    padding-top: 40px;
+    margin-bottom: 40px;
+    .main {
+      padding: 0 40px;
+    }
+    .sidebar {
+      padding: 0 4%;
+    }
   }
-  .sidebar {
-  	padding: 0 60px;
+}
+
+// Small devices (tablets, 768px and up)
+@media only screen and (min-width: $screen-sm-min) {
+  .page-header {
+    h1 {
+      font-size: 36px;
+    }
+  }
+  .jumbo-image {
+    margin-top: 30px;
+  }
+  .page-template-template-sidebar {
+    .content {
+      .main {
+        padding: 0 7% 0 40px;
+        margin-bottom: 45px;
+      }
+    }
+  }
+}
+
+
+// Medium devices (desktops, 992px and up)
+@media only screen and (min-width: $screen-md-min) {
+  .page-header {
+    h1 {
+      font-size: 46px;
+    }
+  }
+  .jumbo-image {
+    margin-top: 40px;
   }
 }

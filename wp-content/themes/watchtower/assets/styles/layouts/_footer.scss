@@ -13,11 +13,12 @@
       text-align: center;
       margin-right: 10px;
       transition: all 0.5s;
-      &:hover, &:active {
-      	background-color: $brand-primary;
-      	i {
-      		color: #ffffff;
-      	}
+      &:hover,
+      &:active {
+        background-color: $brand-primary;
+        i {
+          color: #ffffff;
+        }
       }
       &:last-child {
         margin: 0;

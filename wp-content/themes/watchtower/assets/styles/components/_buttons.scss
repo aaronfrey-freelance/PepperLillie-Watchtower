@@ -1,5 +1,5 @@
 .btn {
-	transition: all 0.5s;
+  transition: all 0.5s;
 }
 
 .btn-primary {
@@ -10,9 +10,21 @@
   font-size: 22px;
   font-weight: bold;
   width: 215px;
-  margin-top: 30px;
+  margin-top: 10px;
   &:hover,
-  &:active {
+  &:active,
+  &:focus {
     color: #ffffff !important;
   }
 }
+
+// Small devices (tablets, 768px and up)
+@media only screen and (min-width: $screen-sm-min) {
+  .btn-primary {
+    margin-top: 30px;
+  }
+}
+
+
+// Medium devices (desktops, 992px and up)
+@media only screen and (min-width: $screen-md-min) {}
