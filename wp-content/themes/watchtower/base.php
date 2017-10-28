@@ -17,6 +17,12 @@ use Roots\Sage\Wrapper;
 
     <div class="wrap container-fluid" role="document">
 
+      <?php if (!is_page_template()) : ?>
+        <div class="row">
+          <?php get_template_part('templates/page', 'header'); ?>
+        </div>
+      <?php endif; ?>
+
       <?php if (is_page_template('template-sidebar.php')) : ?>
         <div class="row">
           <div class="jumbo-image">

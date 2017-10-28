@@ -27,6 +27,27 @@
   background-color: #f4f7f5;
 }
 
+.page-template-default {
+  .page-header {
+    margin-top: 50px;
+    display: inline-block;
+    min-width: 415px;
+    text-align: center;
+    padding: 15px 20px;
+    background-color: $brand-primary;
+  }
+  .content {
+    margin-bottom: 40px;
+    .main {
+      min-height: 650px;
+      padding: 25px 10px 0;
+      .has-thumbnail {
+        padding-left: 20px;
+      }
+    }
+  }
+}
+
 .page-template-template-sidebar {
   .content {
     padding-top: 40px;
@@ -60,7 +81,6 @@
     }
   }
 }
-
 
 // Medium devices (desktops, 992px and up)
 @media only screen and (min-width: $screen-md-min) {

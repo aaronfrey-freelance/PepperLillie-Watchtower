@@ -1,4 +1,22 @@
 <?php while (have_posts()) : the_post(); ?>
-  <?php get_template_part('templates/page', 'header'); ?>
-  <?php get_template_part('templates/content', 'page'); ?>
+
+	<?php if (has_post_thumbnail()) : ?>
+
+		<div class="col-md-6">
+			<?php echo get_the_post_thumbnail($post_id, 'full', ['class' => 'img-responsive']); ?>
+		</div>
+
+		<div class="col-md-6">
+			<br>
+			<div class="has-thumbnail">
+				<?php get_template_part('templates/content', 'page'); ?>
+			</div>
+		</div>
+
+	<?php else : ?>
+		<div class="col-md-12">
+			<?php get_template_part('templates/content', 'page'); ?>
+		</div>
+	<?php endif; ?>
+
 <?php endwhile; ?>
