@@ -22,6 +22,10 @@ form {
   [class*="col-"] {
     padding: 0 10px;
   }
+  .btn-primary {
+    margin-top: 10px;
+    min-width: 215px;
+  }
 }
 
 .form-control {
@@ -55,9 +59,11 @@ textarea.form-control {
 @media only screen and (min-width: $screen-sm-min) {
   form {
     padding-bottom: 35px;
+    .btn-primary {
+      margin-top: 30px;
+    }
   }
 }
-
 
 // Medium devices (desktops, 992px and up)
 @media only screen and (min-width: $screen-md-min) {}

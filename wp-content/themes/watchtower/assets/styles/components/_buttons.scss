@@ -9,8 +9,6 @@
   border-radius: 0;
   font-size: 22px;
   font-weight: bold;
-  width: 215px;
-  margin-top: 10px;
   &:hover,
   &:active,
   &:focus {
@@ -19,12 +17,7 @@
 }
 
 // Small devices (tablets, 768px and up)
-@media only screen and (min-width: $screen-sm-min) {
-  .btn-primary {
-    margin-top: 30px;
-  }
-}
-
+@media only screen and (min-width: $screen-sm-min) {}
 
 // Medium devices (desktops, 992px and up)
 @media only screen and (min-width: $screen-md-min) {}
