@@ -1,21 +1,32 @@
 <?php
-
 use Roots\Sage\Setup;
 use Roots\Sage\Wrapper;
-
 ?>
 
 <!doctype html>
 <html <?php language_attributes(); ?>>
+
   <?php get_template_part('templates/head'); ?>
+
   <body <?php body_class(); ?>>
 
     <?php
       do_action('get_header');
       get_template_part('templates/header');
+      $has_post_thumbnail = has_post_thumbnail();
     ?>
 
-    <div class="wrap container-fluid" role="document">
+    <!-- If this is the default page layout -->
+    <?php if (!is_page_template()) : ?>
+      <!-- If there is a featured image -->
+      <?php if ($has_post_thumbnail) : ?>
+        <?php $banner_image = get_the_post_thumbnail_url($post_id, 'full'); ?>
+        <!-- Display the featured image as a full width banner -->
+        <div class="banner-image" style="background-image: url(<?php echo $banner_image; ?>);"></div>
+      <?php endif; ?>
+    <?php endif; ?>
+
+    <div class="wrap container-fluid <?php echo $has_post_thumbnail ? 'has-thumbnail' : ''; ?>" role="document">
 
       <?php if (!is_page_template()) : ?>
         <div class="row">

@@ -8,7 +8,7 @@
 
 		<div class="col-md-6">
 			<br>
-			<div class="has-thumbnail">
+			<div class="padding-left">
 				<?php get_template_part('templates/content', 'page'); ?>
 			</div>
 		</div>
