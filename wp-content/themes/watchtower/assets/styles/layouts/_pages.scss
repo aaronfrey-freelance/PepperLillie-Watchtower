@@ -66,6 +66,23 @@
   }
 }
 
+.page-template-template-content-right {
+  .page-header {
+    background-color: $brand-primary;
+    margin-top: 20px;
+    padding: 15px 20px;
+    text-align: center;
+  }
+  .content {
+    .main {
+      padding-top: 30px;
+      .inner-image {
+        margin-bottom: 25px;
+      }
+    }
+  }
+}
+
 // Small devices (tablets, 768px and up)
 @media only screen and (min-width: $screen-sm-min) {
   .page-header {
@@ -117,6 +134,40 @@
       }
     }
   }
+  .page-template-template-content-right {
+    .container-fluid {
+      margin: 0 20px;
+    }
+    .form-group {
+      margin: 0;
+    }
+    .page-header {
+      min-height: 220px;
+      margin: 0 -20px;
+      padding: 0;
+      text-align: left;
+      h1 {
+        padding-top: 45px;
+      }
+    }
+    .content {
+      background-color: transparent;
+      margin-top: -115px;
+      .main {
+        padding: 0;
+        .inner-image {
+          margin-top: -70px;
+          z-index: 1;
+        }
+        .inner-content {
+          width: calc(50% + 60px);
+          padding: 40px 40px 0 100px;
+          background-color: #f4f7f5;
+          margin: 0 0 40px -75px;
+        }
+      }
+    }
+  }
 }
 
 // Medium devices (desktops, 992px and up)
@@ -140,6 +191,15 @@
   .page-template-template-sidebar {
     .content {
       margin-bottom: 40px;
+    }
+  }
+  .page-template-template-content-right {
+    .page-header {
+      min-height: 320px;
+    }
+    .content {
+      background-color: transparent;
+      margin-top: -210px;
     }
   }
 }

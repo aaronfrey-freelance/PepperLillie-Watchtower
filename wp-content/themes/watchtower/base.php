@@ -28,13 +28,11 @@ use Roots\Sage\Wrapper;
 
     <div class="wrap container-fluid <?php echo $has_post_thumbnail ? 'has-thumbnail' : ''; ?>" role="document">
 
-      <?php if (!is_page_template()) : ?>
+      <?php if (!is_page_template('template-sidebar.php')) : ?>
         <div class="row">
           <?php get_template_part('templates/page', 'header'); ?>
         </div>
-      <?php endif; ?>
-
-      <?php if (is_page_template('template-sidebar.php')) : ?>
+      <?php else : ?>
         <div class="row">
           <div class="jumbo-image">
             <img src="http://via.placeholder.com/1200x225" class="img-responsive">
@@ -44,7 +42,6 @@ use Roots\Sage\Wrapper;
       <?php endif; ?>
 
       <div class="content row">
-
         <main class="main">
           <?php include Wrapper\template_path(); ?>
         </main><!-- /.main -->
@@ -54,7 +51,6 @@ use Roots\Sage\Wrapper;
             <?php include Wrapper\sidebar_path(); ?>
           </aside><!-- /.sidebar -->
         <?php endif; ?>
-
       </div><!-- /.content -->
 
     </div><!-- /.wrap -->
