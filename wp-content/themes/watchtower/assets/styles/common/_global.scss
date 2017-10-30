@@ -64,6 +64,10 @@
   }
 }
 
+.margin-bottom {
+  margin-bottom: 10px;
+}
+
 .container-fluid {
   margin: 0 20px;
 }
@@ -79,6 +83,7 @@ p {
 }
 
 a {
+  display: inline-block;
   text-decoration: none;
   &:hover,
   &:active {

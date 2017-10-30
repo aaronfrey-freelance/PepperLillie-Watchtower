@@ -161,6 +161,7 @@
         }
         .inner-content {
           width: calc(50% + 60px);
+          min-height: 600px;
           padding: 40px 40px 0 100px;
           background-color: #f4f7f5;
           margin: 0 0 40px -75px;
