@@ -28,17 +28,19 @@ use Roots\Sage\Wrapper;
 
     <div class="wrap container-fluid <?php echo $has_post_thumbnail ? 'has-thumbnail' : ''; ?>" role="document">
 
-      <?php if (!is_page_template('template-sidebar.php')) : ?>
-        <div class="row">
-          <?php get_template_part('templates/page', 'header'); ?>
-        </div>
-      <?php else : ?>
-        <div class="row">
-          <div class="jumbo-image">
-            <img src="http://via.placeholder.com/1200x225" class="img-responsive">
+      <?php if (!is_front_page()) : ?>
+        <?php if (!is_page_template('template-sidebar.php')) : ?>
+          <div class="row">
             <?php get_template_part('templates/page', 'header'); ?>
           </div>
-        </div>
+        <?php else : ?>
+          <div class="row">
+            <div class="jumbo-image">
+              <img src="http://via.placeholder.com/1200x225" class="img-responsive">
+              <?php get_template_part('templates/page', 'header'); ?>
+            </div>
+          </div>
+        <?php endif; ?>
       <?php endif; ?>
 
       <div class="content row">
