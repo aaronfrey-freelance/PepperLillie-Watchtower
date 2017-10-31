@@ -82,6 +82,14 @@
   padding-bottom: 50px;
 }
 
+.center-parent {
+  display: table;
+  .center-child {
+    display: table-cell;
+    vertical-align: middle;
+  }
+}
+
 body {
   font-family: 'Archer';
 }

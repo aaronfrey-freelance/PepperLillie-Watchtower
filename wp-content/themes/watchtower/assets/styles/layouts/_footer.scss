@@ -89,13 +89,10 @@
         width: 610px;
         margin: 0 auto;
         .contact-info {
-          display: table;
           border-top: 3px solid $brand-primary;
           border-bottom: 3px solid $brand-primary;
           .contact-info-block {
             width: 33.333333%;
-            display: table-cell;
-            vertical-align: middle;
             .btn-primary {
               margin: 0 0 9px 0;
               width: 175px;
