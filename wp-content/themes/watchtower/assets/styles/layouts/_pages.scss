@@ -68,6 +68,57 @@
               margin-right: 8px;
             }
           }
+          .resident-link {
+            position: relative;
+            padding: 14px 7px 0 0;
+            width: 50%;
+            float: left;
+            .border {
+              padding: 0;
+              position: absolute;
+              left: 0;
+              right: 0;
+              top: 0;
+              bottom: 0;
+              .center-parent {
+                height: 100%;
+                width: 100%;
+                padding: 0 0 0 32px;
+                h1 {
+                  margin: 0 0 3px;
+                  font-size: 46px;
+                  color: #ffffff;
+                  font-weight: bold;
+                  img {
+                    position: relative;
+                    top: -5px;
+                    max-width: 50px;
+                    margin: 0 15px 0 0;
+                  }
+                }
+                p {
+                  color: #ffffff;
+                  font-size: 15px;
+                  margin: 0 0 0 3px;
+                }
+              }
+            }
+            &.right {
+              padding: 14px 0 0 7px;
+              .center-parent {
+                text-align: right;
+                padding: 0 32px 0 0;
+                h1 {
+                  img {
+                    margin: 0 0 0 15px;
+                  }
+                }
+                p {
+                  margin: 0 3px 0 0;
+                }
+              }
+            }
+          }
         }
       }
     }
