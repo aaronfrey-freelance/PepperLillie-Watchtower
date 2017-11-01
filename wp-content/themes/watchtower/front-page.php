@@ -9,9 +9,9 @@
 						<div class="border">
 							<h1>Live &amp; Work Better Here.</h1>
 							<p>Responsive, friendly and thorough residential, commercial, healthcare and municipal property services in the Philadelphia Area.</p>
-							<a href="#" class="btn btn-primary">Apply Today</a>
-							<a href="#" class="btn btn-primary">Resident Services</a>
-							<a href="#" class="btn btn-primary">Schedule Your Tour</a>
+							<a href="https://properties-resi-life.securecafe.com/onlineleasing/residential-life/floorplans.aspx" target="_blank" class="btn btn-primary">Apply Today</a>
+							<a href="https://properties-resi-life.securecafe.com/residentservices/apartmentsforrent/userlogin.aspx" target="_blank" class="btn btn-primary">Resident Services</a>
+							<a href="https://showmojo.com/ba126fc0e6/listings/mapsearch?cities=Philadelphia%2C+PA&zips=&bedrooms=&rent" target="_blank" class="btn btn-primary">Schedule Your Tour</a>
 						</div>
 					</div>
 				</div>
@@ -20,7 +20,8 @@
 	</div>
 
 	<div class="clearfix">
-		<a href="#" class="resident-link">
+
+		<a href="<?php echo site_url('residential'); ?>" class="resident-link">
 			<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/dist/images/residential.png">
 			<div class="border absolute-fill">
 				<div class="center-parent">
@@ -33,7 +34,8 @@
 				</div>
 			</div>
 		</a>
-		<a href="#" class="resident-link right">
+
+		<a href="<?php echo site_url('commercial'); ?>" class="resident-link right">
 			<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/dist/images/commercial.png">
 			<div class="border absolute-fill">
 				<div class="center-parent text-right">
@@ -46,6 +48,7 @@
 				</div>
 			</div>
 		</a>
+
 	</div><!-- .clearfix -->
 
 	<?php get_template_part('templates/content', 'page'); ?>

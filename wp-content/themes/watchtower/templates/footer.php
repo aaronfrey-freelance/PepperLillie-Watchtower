@@ -51,8 +51,8 @@
 	  		</div>
 
 	  		<div class="contact-info-block center-child clearfix">
-	  			<a href="#" class="btn btn-primary">Apply Today</a>
-	  			<a href="#" class="btn btn-primary">Residential Services</a>
+	  			<a href="https://properties-resi-life.securecafe.com/onlineleasing/residential-life/floorplans.aspx" target="_blank" class="btn btn-primary">Apply Today</a>
+	  			<a href="https://properties-resi-life.securecafe.com/residentservices/apartmentsforrent/userlogin.aspx" target="_blank" class="btn btn-primary">Residential Services</a>
 	  		</div>
 
   		</div>
