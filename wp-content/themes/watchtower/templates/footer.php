@@ -33,9 +33,9 @@
 
 		<div class="contact-info-container">
 
-  		<div class="contact-info center-parent clearfix">
+  		<div class="center-parent clearfix">
 
-	  		<div class="contact-info-block first center-child">
+	  		<div class="center-child first">
 	  			<div class="content-center">
 		  			FMC Tower<br>
 						2929 Walnut Street<br>
@@ -44,13 +44,13 @@
 					</div>
 	  		</div>
 
-	  		<div class="contact-info-block center-child middle">
+	  		<div class="center-child middle">
 	  			Contact Us<br>
 					<a href="mailto:info@wtprops.com">info@wtprops.com</a><br>
 					<a href="tel:2155082210">215.508.2210</a>
 	  		</div>
 
-	  		<div class="contact-info-block center-child clearfix">
+	  		<div class="center-child clearfix">
 	  			<a href="https://properties-resi-life.securecafe.com/onlineleasing/residential-life/floorplans.aspx" target="_blank" class="btn btn-primary">Apply Today</a>
 	  			<a href="https://properties-resi-life.securecafe.com/residentservices/apartmentsforrent/userlogin.aspx" target="_blank" class="btn btn-primary">Residential Services</a>
 	  		</div>
