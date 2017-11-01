@@ -26,6 +26,18 @@
   }
 }
 
+.page-header {
+  border: none;
+  margin: 0;
+  padding: 0;
+  h1 {
+    margin: 0;
+    color: #ffffff;
+    font-size: 26px;
+    font-weight: bold;
+  }
+}
+
 .flex-container {
   display: -webkit-box;
   display: -moz-box;
