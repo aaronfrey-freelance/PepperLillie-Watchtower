@@ -101,6 +101,9 @@
                 margin: 0;
               }
             }
+            &.first {
+              padding-left: 6px;
+            }
             &.middle {
               padding-left: 15px;
             }

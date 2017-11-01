@@ -35,7 +35,7 @@
 
   		<div class="contact-info center-parent clearfix">
 
-	  		<div class="contact-info-block center-child">
+	  		<div class="contact-info-block first center-child">
 	  			<div class="content-center">
 		  			FMC Tower<br>
 						2929 Walnut Street<br>
