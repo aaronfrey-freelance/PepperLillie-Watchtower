@@ -21,6 +21,7 @@
     background-color: transparent;
     margin: 0;
     .main {
+      min-height: auto;
       padding: 0;
       .callout-container {
         position: relative;
@@ -69,7 +70,7 @@
             img {
               position: relative;
               top: -5px;
-              max-width: 50px;
+              max-width: 25px;
               margin: 0 15px;
             }
           }
@@ -270,16 +271,23 @@
   }
   .page-template-default.home .wrap {
     .content .main {
-      .callout-container .main-callout {
-        width: 875px;
-        h1 {
-          margin-top: 55px;
+      .callout-container {
+        .main-callout {
+          width: 875px;
+          h1 {
+            margin-top: 55px;
+          }
+          p {
+            padding-bottom: 40px;
+          }
+          .btn-primary {
+            margin: 0 8px 50px 0;
+          }
         }
-        p {
-          padding-bottom: 40px;
-        }
-        .btn-primary {
-          margin: 0 8px 50px 0;
+      }
+      .resident-link {
+        .border h1 img {
+          max-width: 50px;
         }
       }
     }
