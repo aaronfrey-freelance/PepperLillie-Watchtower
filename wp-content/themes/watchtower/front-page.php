@@ -2,7 +2,7 @@
 
 	<div class="callout-container">
 		<img src="<?php bloginfo('template_directory'); ?>/dist/images/front-page.jpg" class="full-width img-responsive">
-		<div class="callout-container-inner">
+		<div class="absolute-fill">
 			<div class="center-parent">
 				<div class="center-child">
 					<div class="main-callout text-center clearfix">
@@ -22,7 +22,7 @@
 	<div class="clearfix">
 		<a href="#" class="resident-link">
 			<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/dist/images/residential.png">
-			<div class="border">
+			<div class="border absolute-fill">
 				<div class="center-parent">
 					<div class="center-child">
 						<h1>
@@ -35,8 +35,8 @@
 		</a>
 		<a href="#" class="resident-link right">
 			<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/dist/images/commercial.png">
-			<div class="border">
-				<div class="center-parent">
+			<div class="border absolute-fill">
+				<div class="center-parent text-right">
 					<div class="center-child">
 						<h1>
 							Commercial<img src="<?php bloginfo('template_directory'); ?>/dist/images/arrow-right.png">
