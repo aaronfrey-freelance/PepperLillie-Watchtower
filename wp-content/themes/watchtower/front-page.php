@@ -22,7 +22,7 @@
 	<div class="clearfix">
 
 		<a href="<?php echo site_url('residential'); ?>" class="resident-link">
-			<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/dist/images/residential.png">
+			<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/dist/images/residential.jpg">
 			<div class="border absolute-fill">
 				<div class="center-parent">
 					<div class="center-child">
