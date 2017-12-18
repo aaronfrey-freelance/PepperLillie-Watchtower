@@ -47,7 +47,7 @@
 	  		<div class="center-child middle">
 	  			Contact Us<br>
 					<a href="mailto:info@wtprops.com">info@wtprops.com</a><br>
-					<a href="tel:2155082210">215.508.2210</a>
+					<a href="tel:2674771809">267.477.1809</a>
 	  		</div>
 
 	  		<div class="center-child clearfix">
